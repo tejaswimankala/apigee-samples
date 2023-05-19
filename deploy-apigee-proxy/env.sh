@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT="weighty-replica-383308"
+export PROJECT=""
 export APIGEE_HOST="devopsind.com"
 export APIGEE_ENV="dev"
 PROJECT_NUMBER="$(gcloud projects describe $PROJECT --format="value(projectNumber)")"
