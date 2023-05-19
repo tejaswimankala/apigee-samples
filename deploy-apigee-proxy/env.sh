@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT="<GCP_PROJECT_ID>"
-export APIGEE_HOST="<APIGEE_DOMAIN_NAME>"
-export APIGEE_ENV="<APIGEE_ENVIRONMENT_NAME>"
+export PROJECT="weighty-replica-383308"
+export APIGEE_HOST="devopsind.com"
+export APIGEE_ENV="dev"
 PROJECT_NUMBER="$(gcloud projects describe $PROJECT --format="value(projectNumber)")"
 export PROJECT_NUMBER
 export CLOUD_BUILD_SA="$PROJECT_NUMBER@cloudbuild.gserviceaccount.com"
