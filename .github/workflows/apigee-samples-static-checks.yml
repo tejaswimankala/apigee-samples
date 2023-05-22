@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Apigee Samples Static Checks Pipeline
+name: Apigee-Synchronous-Infra-Pipeline
 on: # yamllint disable-line rule:truthy
   push:
   pull_request:
