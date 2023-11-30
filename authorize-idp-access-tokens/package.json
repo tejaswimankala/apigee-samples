@@ -10,7 +10,7 @@
    "preinstall": "npm list pem-jwk@2.0.0 -g || npm install pem-jwk@2.0.0 -g"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^7.3.0",
+    "@cucumber/cucumber": "^10.0.0",
     "apickli": "^3.0.1",
     "apigeelint": "latest"
   }
