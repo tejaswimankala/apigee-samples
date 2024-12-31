@@ -9,6 +9,6 @@
   "dependencies": {
     "@cucumber/cucumber": "^7.3.0",
     "apickli": "^3.0.1",
-    "apigeelint": "latest"
+    "apigeelint": "2.61.0"
   }
 }
